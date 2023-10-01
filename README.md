@@ -4,6 +4,8 @@
 
 This is a command-line application built with Node.js, Inquirer, and MySQL that allows you to manage a company's employee database.
 
+![SS](./ssET.png)
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -44,12 +46,17 @@ To get started with this application, you need to have Node.js and MySQL install
 
 Once you have the application up and running, you can use it to manage your employee database through the command-line interface. The main menu will guide you through the available options.
 
+```bash
+Please see below these steps followed:
+```
+[RECORDING](https://drive.google.com/file/d/19clZAzKBrojTaaZ3w2xRP6_Zgtg_p3Vl/view)
+
 ## Database Schema
 The application uses a MySQL database with the following schema:
 
 * **`department`:** Stores department information.
 * **`role`:** Stores role information, including the department it belongs to.
-* **`employee``:** Stores employee information, including their role and manager.
+* **`employee`:** Stores employee information, including their role and manager.
 
 Please refer to schema.sql for the complete database schema.
 
